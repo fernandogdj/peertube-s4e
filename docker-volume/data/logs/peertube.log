@@ -1,0 +1,25 @@
+{"level":"info","message":"Using following configuration file hierarchy: /app/config/default.yaml -> /app/support/docker/production/config/production.yaml -> /app/support/docker/production/config/custom-environment-variables.yaml.","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:30.554Z"}
+{"level":"info","message":"Using following configuration file hierarchy: /app/config/default.yaml -> /app/support/docker/production/config/production.yaml -> /app/support/docker/production/config/custom-environment-variables.yaml.","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:38.629Z"}
+{"level":"info","message":"Using following configuration file hierarchy: /app/config/default.yaml -> /app/support/docker/production/config/production.yaml -> /app/support/docker/production/config/custom-environment-variables.yaml.","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:45.349Z"}
+{"level":"info","message":"Using following configuration file hierarchy: /app/config/default.yaml -> /app/support/docker/production/config/production.yaml -> /app/support/docker/production/config/custom-environment-variables.yaml.","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:50.377Z"}
+{"message":"i18n initialized with locales: ar, ca-ES, cs-CZ, el-GR, de-DE, en-US, es-ES, eu-ES, eo, fa-IR, zh-Hant-TW, zh-Hans-CN, vi-VN, uk-UA, tok, th-TH, sv-SE, sq, sk-SK, tr-TR, ru-RU, pt-BR, pt-PT, pl-PL, oc, nn, nl-NL, nb-NO, kab, ja-JP, it-IT, is, hu-HU, hr, gl-ES, gd, fr-FR, fi-FI","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:50.525Z"}
+{"level":"info","message":"Database peertube is ready.","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:51.053Z"}
+{"message":"Creating a default OAuth Client.","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.715Z"}
+{"message":"Creating the administrator.","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.739Z"}
+{"message":"Creating application account.","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.755Z"}
+{"message":"Client id: f1ujdvbqqoa9ftexp7ac22861z1lox2h","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.768Z"}
+{"message":"Client secret: CQAWa6UugAC1pRb9IgiYKdFso1qa0G8A","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.768Z"}
+{"message":"Generating a RSA key...","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.863Z"}
+{"message":"Generating a RSA key...","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.965Z"}
+{"message":"Generating a RSA key...","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:57.966Z"}
+{"message":"Username: root","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.652Z"}
+{"message":"User password: bagovinibukabeku","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.653Z"}
+{"tags":["redis"],"level":"info","message":"Connecting to Redis in \"standalone\" mode...","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.658Z"}
+{"db":0,"host":"redis","port":6379,"path":null,"tags":["redis"],"level":"info","message":"Using standalone redis options","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.659Z"}
+{"level":"info","message":"Using localhost:25 as SMTP server.","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.663Z"}
+{"message":"Testing SMTP server...","level":"info","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.667Z"}
+{"tags":["redis"],"level":"info","message":"Connected to redis.","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.755Z"}
+{"component":"smtp-connection","sid":"4RXDcdZ1Ps","level":"error","message":"connect ECONNREFUSED 127.0.0.1:25","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:58.788Z"}
+{"level":"error","message":"Failed to connect to SMTP localhost:25.","label":"peertube.localhost:9000","err":{"stack":"Error: connect ECONNREFUSED 127.0.0.1:25\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","message":"connect ECONNREFUSED 127.0.0.1:25","errno":-111,"code":"ESOCKET","syscall":"connect","address":"127.0.0.1","port":25,"command":"CONN"},"timestamp":"2026-04-30T18:42:58.789Z"}
+{"level":"info","message":"HTTP server listening on 0.0.0.0:9000","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:59.126Z"}
+{"level":"info","message":"Web server: http://peertube.localhost:9000","label":"peertube.localhost:9000","timestamp":"2026-04-30T18:42:59.127Z"}
