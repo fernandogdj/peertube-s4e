@@ -1,0 +1,9 @@
+# Variáveis de ambiente (contém senhas)
+.env
+
+# Dados gerados pelos containers
+docker-volume/
+
+# Sistema
+.DS_Store
+Thumbs.db
